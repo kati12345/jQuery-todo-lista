@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", "sans-serif";
+}
+
+body {
+    background: #B43A88;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 26px 12px;
+}
+
+.task.input {
+    height: 52px;
+    padding: 0 25px;
+    position: relative;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.task-input input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #999;
+    padding: 0 15px;
+}
+
+.task-input input::placeholder {
+    color: #bfbfbf;
+}
+
+.controls,
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-box {
+    list-style: none;
+    padding: 16px
+}
+
+.task-box .task{
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-error,
+.error {
+    color: red;
+}
+
+.task-input button {
+    padding: 3px 20px;
+    background: #c5c5c5;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.task-input button:hover {
+    background: #9b9898;
+}
+
+.list-rivi textarea{
+    width:100%;
+    background:transparent;
+    border:none;
+    color:purple;
+    font-size:17px;
+    float: left;
+  }
+
+.task .muokkaaTehtavaa:hover{
+    background: #9b9898;
+}
+.task .poistaTehtava:hover{
+    background: #9b9898;
+}
+.task .muokkaaTehtavaa {
+    float:left
+}
+.task .poistaTehtava{
+    float:left
+}
